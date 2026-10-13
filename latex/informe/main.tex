@@ -1,0 +1,69 @@
+\documentclass{ucshinforme}
+
+% --- Datos de la portada y del encabezado ---
+\asignatura{Bases de Datos}
+\anio{2026}
+\semestre{2}
+\titulo{Título del informe}
+\autores{Nombre Apellido\\ Segundo Integrante\\ Tercer Integrante}
+\profesor{Nombre del Profesor}
+\facultad{Facultad de Ingeniería}
+\carrera{Ingeniería en Informática}
+% \fechaentrega{15 de octubre de 2026}
+
+% --- Archivo con las fuentes ---
+\addbibresource{referencias.bib}
+
+\begin{document}
+
+\makeportada
+
+% --- Índices (singlespace: se ven más compactos que con 1.5) ---
+\begin{singlespace}
+\tableofcontents
+\clearpage
+\listoffigures    % borra esta línea y su \clearpage si no usas figuras
+\clearpage
+\listoftables     % borra esta línea y su \clearpage si no usas tablas
+\clearpage
+\end{singlespace}
+
+% --- Contenido ---
+\section{Introducción}
+Texto de ejemplo, con una cita \parencite{elmasri2016}.
+
+\section{Desarrollo}
+\subsection{Marco teórico}
+Texto de ejemplo, con otra cita \parencite{date2019}.
+
+\subsection{Resultados}
+La Figura~\ref{fig:ejemplo} y la Tabla~\ref{tab:ejemplo} son ejemplos.
+
+\begin{figure}[h]
+  \centering
+  \fbox{\parbox{6cm}{\centering\vspace{1.5cm}Imagen de ejemplo\vspace{1.5cm}}}
+  \caption{Ejemplo de figura.}
+  \label{fig:ejemplo}
+\end{figure}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{lc}
+    \hline
+    Concepto & Valor \\
+    \hline
+    A & 10 \\
+    B & 20 \\
+    \hline
+  \end{tabular}
+  \caption{Ejemplo de tabla.}
+  \label{tab:ejemplo}
+\end{table}
+
+\section{Conclusiones}
+Texto de ejemplo...
+
+\newpage
+\printbibliography[heading=bibintoc,title=Referencias]
+
+\end{document}
