@@ -8,7 +8,7 @@ Plantillas de informe en formato Google Docs, para quienes prefieren trabajar di
 
 | Plantilla | Cómo usarla |
 |-----------|-------------|
-| Informe académico | [Hacer una copia](https://docs.google.com/document/d/1MzjdRiw1ZTbmx0mK77hw4elqN2WUYxvYOTJscJoN0L4/copy) · [Ver el original](https://docs.google.com/document/d/1MzjdRiw1ZTbmx0mK77hw4elqN2WUYxvYOTJscJoN0L4/edit?usp=sharing) |
+| Informe académico | [Hacer una copia](https://docs.google.com/document/d/1qkg1BseXu5vdxq9HoZYXylJyaUQtBaqAdmceMqCv1n0/copy) · [Ver el original](https://docs.google.com/document/d/1qkg1BseXu5vdxq9HoZYXylJyaUQtBaqAdmceMqCv1n0/edit?usp=sharing) |
 
 ## ¿Cómo la uso?
 
