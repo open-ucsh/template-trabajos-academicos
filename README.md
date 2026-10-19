@@ -13,7 +13,7 @@ La idea es que puedas partir de una plantilla, personalizarla y concentrarte en 
 | Plantilla | Formato | Acceso |
 |-----------|---------|--------|
 | [Informe académico](latex/informe) | LaTeX | Libre |
-| [Informe académico](google-docs) | Google Docs | Solo cuentas UCSH |
+| [Informe académico](google-docs) | Google Docs | Libre |
 
 Puedes ver cómo queda el resultado en la [vista previa](docs/vista-previa).
 
